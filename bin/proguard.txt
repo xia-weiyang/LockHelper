@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:43
+-keep class com.jiusg.lockhelper.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.jiusg.lockhelper.LockHelperService { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.jiusg.lockhelper.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.jiusg.lockhelper.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.jiusg.lockhelper.PhoneReceiver { <init>(...); }
+

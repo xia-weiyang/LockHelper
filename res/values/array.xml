@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string-array name="style_list_preference">
+        <item>直接显示</item>
+        <item>触摸显示</item>
+    </string-array>
+    <string-array name="stylevalue_list_preference">
+        <item>Show</item>
+        <item>Touch</item>
+    </string-array>
+    
+    <string-array name="cancel_list_preference">
+        <item>一次</item>
+        <item>两次</item>
+    </string-array>
+    <string-array name="cancelvalue_list_preference">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="positionX_list_preference">
+        <item>左</item>
+        <item>中</item>
+        <item>右</item>
+    </string-array>
+    <string-array name="positionXvalue_list_preference">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

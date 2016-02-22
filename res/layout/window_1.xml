@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 这是给选择了五个应用的布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <ImageView
+        android:id="@+id/loock"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="0dp"
+        android:src="@drawable/lock_image"/>
+    
+    <ImageView
+        android:id="@+id/loock_1_1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_2_2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_3_3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_4_4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_5_5"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:padding="0dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/loock"
+        android:padding="0dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="0dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="0dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/lock_ignore"/>
+    
+    <ImageView
+        android:id="@+id/loock_5"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_alignBottom="@+id/loock"
+        android:layout_alignParentLeft="true"
+        android:padding="0dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/lock_ignore"/>
+
+</RelativeLayout>

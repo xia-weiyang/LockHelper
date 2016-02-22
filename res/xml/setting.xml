@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="基本设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="PowerBoot"
+            android:summaryOff="建议开启,以便获的更好体验"
+            android:summaryOn="需安装在手机内存中"
+            android:title="开机自启" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LockHint"
+            android:summaryOff="开启后将在锁屏界面出现提示启动锁屏帮手的按钮"
+            android:summaryOn="如果你已熟悉了开启锁屏帮手的位置,建议关闭"
+            android:title="锁屏提示" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Shake"
+            android:summaryOff="开启后将在选中应用后震动"
+            android:summaryOn=""
+            android:title="震动反馈" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="请选择点击次数(累计)"
+            android:entries="@array/cancel_list_preference"
+            android:entryValues="@array/cancelvalue_list_preference"
+            android:key="TouchCancel"
+            android:summary="选择触摸屏幕上或下方的次数,用于取消本次服务"
+            android:title="触屏取消" />
+        <ListPreference
+            android:defaultValue="LongPress"
+            android:dialogTitle="请选择显示方式"
+            android:entries="@array/style_list_preference"
+            android:entryValues="@array/stylevalue_list_preference"
+            android:key="LockStyle"
+            android:summary="激活锁屏帮手的方式"
+            android:title="显示方式" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="请选择位置"
+            android:entries="@array/positionX_list_preference"
+            android:entryValues="@array/positionXvalue_list_preference"
+            android:key="LockpositionX"
+            android:summary="调整锁屏帮手的横向位置"
+            android:title="横向位置" />
+
+        <PreferenceScreen
+            android:key="LockpositionY"
+            android:title="纵向位置" />
+        <PreferenceScreen
+            android:key="Size"
+            android:title="大小调节" />
+        <PreferenceScreen
+            android:key="Alpha"
+            android:title="透明度" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于锁屏帮手" >
+        <PreferenceScreen
+            android:key="Lesson"
+            android:title="使用帮助" />
+        <PreferenceScreen
+            android:key="Version"
+            android:summary="未知"
+            android:title="版本信息" />
+        <PreferenceScreen
+            android:key="Exit"
+            android:title="完全退出" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

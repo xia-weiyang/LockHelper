@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/lesson_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="@string/lesson_title"/>
+    
+    <ScrollView
+        android:id="@+id/lesson_sv"
+        android:layout_width="530dp"
+        android:layout_height="450dp"
+        android:layout_below="@+id/lesson_title"
+
+        android:scrollbarStyle="outsideOverlay" >
+        <TextView 
+            android:id="@+id/lesson_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:text="@string/lesson_context"/>
+        </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="CustomTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionButtonOverflow</item>
+    </style>
+    
+    <style name="CustomActionButtonOverflow" parent="@android:style/Widget.DeviceDefault.Light.ActionButton.Overflow">
+        <item name="android:src">@android:drawable/ic_menu_info_details</item>
+    </style>
+    
+     <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    
+ <!--   <style name="CustomTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#d0d1d2</item>
+        <item name="android:backgroundSplit">#d0d1d2</item>
+       <item name="android:titleTextStyle">@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title</item>
+       </style> -->  
+     
+</resources>
